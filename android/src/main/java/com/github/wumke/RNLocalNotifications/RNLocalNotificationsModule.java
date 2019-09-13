@@ -63,7 +63,7 @@ public class RNLocalNotificationsModule extends ReactContextBaseJavaModule {
             this.deleteAlarm(id);
         }
 
-        final SimpleDateFormat desiredFormat = new SimpleDateFormat("yyyy-MM-dd kk:mm");
+        final SimpleDateFormat desiredFormat = new SimpleDateFormat("yyyy-MM-dd kk:mm:ss");
         Date dateToMillis = null;
         try {
             dateToMillis = desiredFormat.parse(datetime);
