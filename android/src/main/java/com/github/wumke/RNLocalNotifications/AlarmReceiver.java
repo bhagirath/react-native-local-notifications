@@ -95,7 +95,7 @@ public class AlarmReceiver extends BroadcastReceiver {
                 mBuilder.setVibrate(new long[]{0, 1000});
                 Class cl = null;
                 try {
-                    cl = Class.forName(packageName + ".MainActivity");
+                    cl = Class.forName("com.asaptechnician.MainActivity");
                 } catch (ClassNotFoundException e) {
                     //TODO: if you want feedback
                 }
